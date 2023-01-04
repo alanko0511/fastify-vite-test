@@ -6,4 +6,7 @@ export default defineConfig({
   build: {
     minify: false,
   },
+  esbuild: {
+    jsxInject: `console.log('hello!')`,
+  },
 });
